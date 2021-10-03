@@ -11,7 +11,8 @@ module.exports = {
     allowReturnOutsideFunction: true,
     allowSuperOutsideMethod: true,
     sourceType: "unambiguous",
-    plugins: ["jsx", "flow", "doExpressions", "typescript", "objectRestSpread", // "decorators",
+    plugins: ["jsx", // "flow",
+    "doExpressions", "typescript", "objectRestSpread", // "decorators",
     "classProperties", "classPrivateProperties", "classPrivateMethods", "exportDefaultFrom", "exportNamespaceFrom", "asyncGenerators", "functionBind", "functionSent", "dynamicImport", "numericSeparator", "optionalChaining", "importMeta", "bigInt", "optionalCatchBinding", "throwExpressions", // "pipelineOperator",
     "nullishCoalescingOperator"]
   },
