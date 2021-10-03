@@ -13,7 +13,7 @@ module.exports = {
     sourceType: "unambiguous",
     plugins: [
       "jsx",
-      "flow",
+      // "flow",
       "doExpressions",
       "typescript",
       "objectRestSpread",
