@@ -15,6 +15,7 @@ module.exports = {
       "jsx",
       "flow",
       "doExpressions",
+      "typescript",
       "objectRestSpread",
       // "decorators",
       "classProperties",
